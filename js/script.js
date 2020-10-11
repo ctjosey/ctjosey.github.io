@@ -5,14 +5,14 @@ request.responseType = 'json';
 request.send();
 
 request.onload = function() {
-    const myData = request.response;
-    createQuoteBlock(myData);
+    const response = request.response;
+    createQuoteBlock(response);
 }
 
 function createQuoteBlock(data) {
-    let random = Math.floor(Math.random() * Math.floor(data.count));
+    let random = Math.floor(Math.random() * Math.floor(data.length));
     console.log(random);
     let para = document.createElement('q');
-    para.textContent = data[random].quote;
+    para.textContent = data[random]['quote'];
     document.body.appendChild(para);
 }
