@@ -4,7 +4,7 @@ var random = Math.floor(Math.random() * Math.floor(myData.count));
 
 function createQuoteBlock() {
     let para = document.createElement('q');
-    para.textContent = myData[random];
+    para.textContent = myData[random].quote;
     document.body.appendChild(para);
 }
 
