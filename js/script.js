@@ -1,15 +1,17 @@
-data = "quotes.json";
-var myData = JSON.parse(data);
-var random = Math.floor(Math.random() * Math.floor(myData.count));
+let requestURL = "https://ctjosey.github.io/js/quotes.json";
+let request = new XMLHttpRequest();
+request.open('GET', requestURL);
+request.responseType = 'json';
+request.send();
 
-function createQuoteBlock() {
-    let para = document.createElement('q');
-    para.textContent = myData[random].quote;
-    document.body.appendChild(para);
+request.onload = function() {
+    const myData = request.response;
+    createQuoteBlock(myData);
 }
 
-const buttons = document.querySelectorAll('button');
-
-for (let i = 0; i < buttons.length; i++) {
-    buttons[i].addEventListener('click', createQuoteBlock);
+function createQuoteBlock(data) {
+    let random = Math.floor(Math.random() * Math.floor(data.count));
+    let para = document.createElement('q');
+    para.textContent = data[random]['quote'];
+    document.body.appendChild(para);
 }

@@ -1,10 +1,10 @@
-quotes = '[
+[
     {
         "name" : "Oscar Wilde",
         "quote" : "Experience is merely the name men gave to their mistakes."
-    }
+    },
     {
         "name" : "Socrates",
         "quote" : "An unexamined life is not worth living."
     }
-]'
+]
