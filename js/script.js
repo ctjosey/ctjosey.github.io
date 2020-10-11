@@ -12,6 +12,6 @@ request.onload = function() {
 function createQuoteBlock(data) {
     let random = Math.floor(Math.random() * Math.floor(data.count));
     let para = document.createElement('q');
-    para.textContent = data[random]['quote'];
+    para.textContent = data[random].quote;
     document.body.appendChild(para);
 }
