@@ -6,5 +6,61 @@
     {
         "name" : "Socrates",
         "quote" : "An unexamined life is not worth living."
+    },
+    {
+        "name" : "Bruce Springsteen",
+        "quote" : "Blow away the dreams that tear you apart. Blow away the dreams that break your heart. Blow away the lies that leave you nothing but lost and brokenherted."
+    },
+    {
+        "name" : "Socrates/Plato",
+        "quote" : "Nothing can harm a good man either in life or after death."
+    },
+    {
+        "name" : "Jon Foreman",
+        "quote" : "Live out the purpose for which you were born, that your melody would soar above the past, above the pain, above the dissonance. That the song you were born to sing would come into life."
+    },
+    {
+        "name" : "Marcus Aurelius",
+        "quote" : "Live each day as if it was your last."
+    },
+    {
+        "name" : "Aristotle",
+        "quote" : "There is only one way to avoid criticism: do nothing, say nothing, and be nothing."
+    },
+    {
+        "name" : "Rainer Rilke",
+        "quote" : "You, sent out beyond your recall, go to the limits of your longing...Let everything happen to you: beauty and terror. Just keep going. No feeling is final."
+    },
+    {
+        "name" : "Nelson Mandela",
+        "quote" : "Part of being optimistic is keeping one's head pointed toward the sun, one's feet moving forward."
+    },
+    {
+        "name" : "Saint Augustine",
+        "quote" : "Do you wish to rise? Begin by descending. You plan a tower that will pierce the clouds? Lay first the foundation of humility."
+    },
+    {
+        "name" : "M. Frida Hartley",
+        "quote" : "From beasts we scorn as soulless/In forest, field, and den/The cries go out to witness/The soullessness of men."
+    },
+    {
+        "name" : "Thomas Sankara",
+        "quote" : "That which man can imagine, he can achieve."
+    },
+    {
+        "name" : "Edith Wharton",
+        "quote" : "Life is always a tightrope or a feather bed. Give me the tightrope."
+    },
+    {
+        "name" : "Jack Kerouac",
+        "quote" : "...and I shambled after as I've been doing my whole life after people who interest me, because the only people for me are the mad ones..."
+    },
+    {
+        "name" : "Buddha",
+        "quote" : "Remember me as the one who woke up."
+    },
+    {
+        "name" : "Walt Whitman",
+        "quote" : "I exist as I am; that is enough..."
     }
 ]
