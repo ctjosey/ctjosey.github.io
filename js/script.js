@@ -11,9 +11,11 @@ request.onload = function() {
 
 function createQuoteBlock(data) {
     let random = Math.floor(Math.random() * Math.floor(data.length));
-    console.log(data.length);
-    console.log(random);
     let para = document.createElement('q');
     para.textContent = data[random]['quote'];
-    document.body.appendChild(para);
+    let quotee = document.createElement('b');
+    quotee.textContent = " ~ " + data[random]['name'];
+    let quoteBlock = document.getElementById('quote');
+    quoteBlock.appendChild(para);
+    quoteBlock.appendChild(quotee);
 }
